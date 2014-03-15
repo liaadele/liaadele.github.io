@@ -1,0 +1,301 @@
+/* e17125 ORANGE */
+/* 4f5c5d GRAY */
+/* 14747d DARK BLUE */
+/* 22bcb9 LIGHT BLUE */
+/* fcf7c6 YELLOW*/
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    font-size: 1em;
+    background-image:url('images/paper.png');
+    background-attachment: fixed;
+    color: #fff;
+}
+
+
+
+.logo {
+   width: 35%;
+   margin-right: auto;
+   margin-left: auto;
+   padding-top: 20px;
+}
+
+.header {
+   text-align: center;
+   font-family: 'Amatic SC', cursive;
+   font-size: 5.125em; /*82px*/
+   color: #fff;
+   font-weight: bold;
+}
+
+.headerblue {
+   text-align: center;
+   font-family: 'Amatic SC', cursive;
+   font-size: 5.125em; /*82px*/
+   color: #fff;
+   font-weight: bold;
+}
+
+.contact {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contactwrapper {
+    width: 100%;
+    height: 50%;
+    background-color:#22bcb9; 
+    padding: 0;
+   position: relative;
+   left: 0px;
+   right: 0px;
+   bottom: 0px;  
+}
+
+.contacticon {
+    height: 55px;
+    width: 50px;
+}
+
+.work {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    clear: none;
+    padding-bottom: 10px;
+    background-color:#14747d; 
+    
+}
+
+.aboutme {
+    width: 50%;
+    height: 25%;
+    margin-left: 0;
+    background-color: #22bcb9;
+    float: left;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.skills {
+    width: 50%;
+    height: 25%;
+    background-color: #14747d;
+    float: left;
+    margin-right: 0;
+    right: 0;
+    padding-bottom: 10px;
+   
+}
+
+li {
+    width: 15%;
+    height: 27%;
+    background-color:#14747d; 
+    float: left;
+    padding: 10px;
+}
+
+.galleryitem {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.galleryitem:hover {
+  box-shadow: 0 0 0 7px #e17125;
+}
+
+ul {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#breaker {
+    height: 10%;
+    clear: both;
+}
+#breakertwo {
+    height: 1%;
+    clear: both;
+}
+
+.copy {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.abouticon {
+  height: 70%;
+  max-width: 200px;
+    max-height: 200px;
+}
+
+#icons {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2.25em; /*36px*/
+  color: #fff;
+  font-weight: bold;
+}
+
+#topwrapper {
+    width: 100%;
+    background-color:#22bcb9; 
+    padding: 0;
+   position: relative;
+   left: 0px;
+   right: 0px;
+   top: 0px; 
+
+}
+
+.menu {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+  width: 1%;
+
+}
+
+#menubuttons {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em; 
+  color: #fff;
+  font-weight: bold;
+}
+
+@media all and (max-width: 480px) {
+  #topwrapper {
+    height: 100px;
+  }
+  .menu {
+float: left;
+width: 100%;
+text-align: left;
+margin-left: 2px;
+width: auto;
+  }
+}
+
+.iconz {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  z-index: -10;
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+.facebook {
+ width: 90px;
+ height:90px;
+ display:block;
+ background:transparent url('images/facebook.png') center top no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.facebook:hover {
+   background-image: url('images/facebook2.png');
+}
+
+.cellphone {
+margin-top: 5px;
+margin-bottom: 5px;
+ width: 80px;
+ height:100px;
+ display:block;
+ background:transparent url('images/cellphone.png') center top no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.cellphone:hover {
+   background-image: url('images/cellphone2.png');
+}
+
+.email {
+ width: 100px;
+ height:70px;
+ display:block;
+ background:transparent url('images/email.png') center top no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.email:hover {
+   background-image: url('images/email2.png');
+}
+
+.behance {
+ width: 100px;
+ height:100px;
+ display:block;
+ background:transparent url('images/behance.png') center top no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.behance:hover {
+   background-image: url('images/behance2.png');
+}
+
+.linkedin {
+ width: 100px;
+ height:100px;
+ display:block;
+ background:transparent url('images/linkedin.png') center top no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.linkedin:hover {
+   background-image: url('images/linkedin2.png');
+}
+
+.getaholdofme {
+  width: 10%;
+  height: 200px;
+  float: left;
+  font-family: 'Amatic SC', cursive;
+   font-size: 2em;
+   color: #fff;
+   font-weight: bold;
+   line-height: 30px;
+}
+
+.mysocialmedia {
+  width: 50%;
+  float: left;
+}
