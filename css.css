@@ -54,10 +54,10 @@ a:hover {
 }
 */
 .logo {
-   width: 35%;
+  width: 65%;
    margin-right: auto;
    margin-left: auto;
-   padding-top: 20px;
+   padding-top: 3%;
 }
 
 .header {
@@ -330,4 +330,12 @@ margin-bottom: 5px;
 .mysocialmedia {
   width: 50%;
   float: left;
+}
+
+.profilepic {
+  height: 170px;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
 }
