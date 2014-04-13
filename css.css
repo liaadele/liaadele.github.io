@@ -32,6 +32,15 @@ a:hover {
   border-bottom: 5px solid #e17125;
 }
 
+::selection {
+  background: #fff;
+  color: #4f5c5d;
+  }
+::-moz-selection {
+  background: #fff;
+  color: #4f5c5d;
+}
+
 .menu {
   padding: 0;
   margin: 0 auto;
@@ -54,7 +63,7 @@ a:hover {
 }
 */
 .logo {
-  width: 55%;
+  width: 40%;
    margin-right: auto;
    margin-left: auto;
    padding-top: 2%;
@@ -78,22 +87,26 @@ a:hover {
 }
 
 .contact {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+   text-align: center;
+   margin: 0 auto;
 }
-
+/*
+.contact p {
+    font-family: 'Amatic SC', cursive;
+   font-size: 40px; /*82px*/ /*
+   color: #fff;
+   font-weight: bold;
+   line-height: 35px;
+}
+*/
 #contactwrapper {
     width: 100%;
     height: 30%;
     background-color:#22bcb9; 
     padding: 0;
-   position: relative;
    left: 0px;
    right: 0px;
    bottom: 0px;  
-   text-align: center;
 }
 
 .work {
@@ -102,7 +115,7 @@ a:hover {
     margin-right: auto;
     overflow: hidden;
     clear: none;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
     background-color:#14747d; 
     
 }
@@ -309,15 +322,16 @@ margin-bottom: 5px;
 }
 
 .email {
- width: 100px;
- height:70px;
- display:block;
+ width: 120px;
+ height: 90px;
+ display: inline-block;
  background:transparent url('images/email2.png') center top no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  float: left;
+  
+
 }
 
 .email:hover {
@@ -327,13 +341,13 @@ margin-bottom: 5px;
 .behance {
  width: 100px;
  height:100px;
- display:block;
+ display: inline-block;
  background:transparent url('images/behance2.png') center top no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  float: left;
+ 
 }
 .behance:hover {
    background-image: url('images/behance.png');
@@ -341,15 +355,15 @@ margin-bottom: 5px;
 }
 
 .linkedin {
- width: 100px;
- height:100px;
- display:block;
+ width: 95px;
+ height: 95px;
+ display: inline-block;
  background:transparent url('images/linkedin2.png') center top no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  float: left;
+
 }
 
 .linkedin:hover {
@@ -363,6 +377,31 @@ margin-bottom: 5px;
   padding-right: 10px;
   padding-top: 30px;
 }
+
+.emailtext {
+ width: 160px;
+ height: 50px;
+ display: inline-block;
+ text-align: center;
+ font-family: 'Amatic SC', cursive;
+ font-size: 40px;
+ color: #fff;
+ font-weight: bold;
+ line-height: 35px;
+}
+
+.resume {
+ width: 150px;
+ height: 50px;
+ display: inline-block;
+ text-align: center;
+ font-family: 'Amatic SC', cursive;
+ font-size: 40px;
+ color: #fff;
+ font-weight: bold;
+ line-height: 35px;
+}
+
 
 .lightbox {
   /** Hide the lightbox */
