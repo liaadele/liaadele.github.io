@@ -1,6 +1,6 @@
 /* e17125 ORANGE */
 /* 4f5c5d GRAY */
-/* fcf7c6 DARK BLUE */
+/* 14747d DARK BLUE */
 /* 22bcb9 LIGHT BLUE */
 /* fcf7c6 YELLOW*/
 
@@ -14,7 +14,7 @@ body {
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
-    font-size: 1em;
+    font-size: 1.2em;
     background-image:url('images/paper.png');
     background-attachment: fixed;
     color: #fff;
@@ -116,80 +116,32 @@ a:hover {
     overflow: hidden;
     clear: none;
     padding-bottom: 50px;
-    background-color:#fcf7c6; 
+    background-color:#14747d; 
     
 }
 
 .aboutme {
-    width: 50%;
-    height: 33%;
+    width: 100%;
+    height: auto;
     margin-left: 0;
     background-color: #22bcb9;
-    float: left;
-    position: relative;
     padding-bottom: 10px;
-    display: inline;
 }
 
 .skills {
-    width: 50%;
-    height: 33%;
-    background-color: #fcf7c6;
-    float: left;
-    margin-right: 0;
-    right: 0;
+    width: 100%;
+    height: auto;
+    background-color: #14747d;
     padding-bottom: 10px;
-    display: inline;
-}
 
-.aboutmetwo {
-    width: 50%;
-    height: 12%;
-    margin-left: 0;
-    background-color: #22bcb9;
-    float: left;
-    padding-bottom: 5px;
-    overflow: hidden;
-    vertical-align: middle;
-}
-
-.skillstwo {
-    width: 50%;
-    height: 12%;
-    background-color: #fcf7c6;
-    float: left;
-    margin-right: 0;
-    right: 0;
-    padding-bottom: 5px;
-    overflow: hidden;
-    vertical-align: middle;
-
-}
-@media all and (max-height: 850px) {
-  .aboutme {
-    height: 40%;
-  }
-  .skills {
-    height: 40%;
-  }
-}
-
-@media all and (max-height: 700px) {
-  .aboutme {
-    height: 45%;
-  }
-  .skills {
-    height: 45%;
-  }
 }
 
 li {
     width: 15%;
     height: 27%;
-    background-color:#fcf7c6; 
+    background-color:#14747d; 
     float: left;
     padding: 10px;
-    margin-bottom: 20px;
 }
 
 .galleryitem {
