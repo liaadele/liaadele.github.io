@@ -1,6 +1,6 @@
 /* e17125 ORANGE */
 /* 4f5c5d GRAY */
-/* 14747d DARK BLUE */
+/* fcf7c6 DARK BLUE */
 /* 22bcb9 LIGHT BLUE */
 /* fcf7c6 YELLOW*/
 
@@ -116,7 +116,7 @@ a:hover {
     overflow: hidden;
     clear: none;
     padding-bottom: 50px;
-    background-color:#14747d; 
+    background-color:#fcf7c6; 
     
 }
 
@@ -134,7 +134,7 @@ a:hover {
 .skills {
     width: 50%;
     height: 33%;
-    background-color: #14747d;
+    background-color: #fcf7c6;
     float: left;
     margin-right: 0;
     right: 0;
@@ -156,7 +156,7 @@ a:hover {
 .skillstwo {
     width: 50%;
     height: 12%;
-    background-color: #14747d;
+    background-color: #fcf7c6;
     float: left;
     margin-right: 0;
     right: 0;
@@ -186,7 +186,7 @@ a:hover {
 li {
     width: 15%;
     height: 27%;
-    background-color:#14747d; 
+    background-color:#fcf7c6; 
     float: left;
     padding: 10px;
     margin-bottom: 20px;
