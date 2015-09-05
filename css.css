@@ -68,8 +68,8 @@ a:hover {
   height: 27%;
    margin-right: auto;
    margin-left: auto;
- /*  margin-bottom: 50px;
-   margin-top: 30px;*/
+   margin-bottom: 5%;
+   margin-top: 3%;
    background:transparent url('images/logo2.svg') center top no-repeat;
 }
 
@@ -119,8 +119,9 @@ a:hover {
     margin-right: auto;
     overflow: hidden;
     clear: none;
-    padding-bottom: 50px;
-    background-color:#14747d;    
+    /*padding-bottom: 50px;*/
+    background-color:#14747d; 
+    margin-bottom: 5%;   
 }
 
 
@@ -300,7 +301,7 @@ ul {
     width: 100%;
     background-color:#22bcb9; 
     padding: 0;
-   position: fixed;
+   /*position: fixed;*/
    left: 0px;
    right: 0px;
    top: 0px; 
