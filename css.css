@@ -442,6 +442,9 @@ margin-bottom: 5px;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  position: absolute;
+  top: 2%;
+  left: 1%;
  
 }
 .backbutton:hover {
@@ -521,17 +524,19 @@ margin-bottom: 5px;
 }
 
 .artwork {
-  float: left;
+  /*float: left;*/
   height: 100%;
-  margin-top: 1%;
-  width: 86%;
+  width: 100%;
+  /*margin-top: 1%;*/
 }
 .artwork img {
   max-height: 90%;
   width: auto;
   display: block;
-  float: left;
-  padding: .5%;
+  /*float: left;*/
+  padding: 1%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .artinfo {
