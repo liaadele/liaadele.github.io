@@ -125,6 +125,21 @@ a:hover {
     
 }
 
+
+.wrapper2 {
+  width: 100%;
+  height: 33%;
+  position: relative;
+  background: #22bcb9;
+  background: -moz-linear-gradient(left, #22bcb9 0%, #22bcb9 50%, #14747d 50%, #14747d 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#22bcb9), color-stop(50%,#22bcb9), color-stop(50%,#14747d), color-stop(100%,#14747d));
+  background: -webkit-linear-gradient(left, #22bcb9 0%,#22bcb9 50%,#14747d 50%,#14747d 100%);
+  background: -o-linear-gradient(left, #22bcb9 0%,#22bcb9 50%,#14747d 50%,#14747d 100%);
+  background: -ms-linear-gradient(left, #22bcb9 0%,#22bcb9 50%,#14747d 50%,#14747d 100%);
+  background: linear-gradient(to right, #22bcb9 0%,#22bcb9 50%,#14747d 50%,#14747d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22bcb9', endColorstr='#14747d',GradientType=1 );
+}
+
 .aboutme {
     width: 50%;
     height: 33%;
