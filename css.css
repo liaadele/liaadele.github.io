@@ -49,8 +49,6 @@ a:hover {
   padding-right: 2.5%;
   padding-left: 2.5%;
   width: 1%;
-
-
 }
 
 
@@ -121,15 +119,14 @@ a:hover {
     overflow: hidden;
     clear: none;
     padding-bottom: 50px;
-    background-color:#14747d; 
-    
+    background-color:#14747d;    
 }
 
 
 .wrapper2 {
   width: 100%;
   height: auto;
-  position: relative;
+  position: absolute;
   background: #22bcb9;
   background: -moz-linear-gradient(left, #22bcb9 0%, #22bcb9 50%, #14747d 50%, #14747d 100%);
   background: -webkit-gradient(linear, left top, right top, color-stop(0%,#22bcb9), color-stop(50%,#22bcb9), color-stop(50%,#14747d), color-stop(100%,#14747d));
@@ -232,7 +229,7 @@ ul {
 }
 
 #breaker {
-    height: 10%;
+    height: 40%;
     clear: both;
 }
 #breakertwo {
