@@ -294,6 +294,7 @@ margin-bottom: 5px;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  display: none;
   
 
 }
