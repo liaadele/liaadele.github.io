@@ -499,6 +499,12 @@ margin-bottom: 5px;
   text-decoration: none;
 }
 
+.lightbox a:hover {
+  color: #fff;
+  text-decoration: none;
+  border: 0px;
+}
+
 
 .title {
  font-family: 'Amatic SC', cursive;
