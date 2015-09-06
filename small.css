@@ -180,14 +180,12 @@ ul {
 .copy {
     width: 85%;
     margin: 0 auto;
-    font-size: 18px;
+    font-size: 32px;
 }
 
 .abouticon {
   max-width: 140px;
-  max-height: 90px;
-
-    
+  max-height: 90px;  
 }
 
 #icons {
