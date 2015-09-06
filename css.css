@@ -601,12 +601,10 @@ margin-bottom: 5px;
 }
 
 .gallerylink {
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    /* width: 100px; */
-    /* height: 100px; */
-    border: 7px solid #FFF;
-    /* background: #00f; */
-    margin: 10px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+}
+
+.gallerylink img {
+  margin-top: 15%;
 }
