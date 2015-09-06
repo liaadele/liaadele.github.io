@@ -495,3 +495,14 @@ margin-bottom: 5px;
   max-width: 48%;
   padding: .5%;
 }
+
+.smallbehance {
+  font-family: 'Amatic SC', cursive;
+  font-size: 85px;
+}
+
+.smallbehance img {
+ margin-top: 5% !important;
+ margin-bottom: 2% !important;
+ width: 170px;
+}
