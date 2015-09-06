@@ -74,7 +74,7 @@ a:hover {
 .header {
    text-align: center;
    font-family: 'Amatic SC', cursive;
-   font-size: 5.125em; /*82px*/
+   font-size: 9.125em; /*82px*/
    color: #fff;
    font-weight: bold;
 }
@@ -82,7 +82,7 @@ a:hover {
 .headerblue {
    text-align: center;
    font-family: 'Amatic SC', cursive;
-   font-size: 5.125em; /*82px*/
+   font-size: 9.125em; 
    color: #fff;
    font-weight: bold;
 }
@@ -119,6 +119,8 @@ a:hover {
     overflow: hidden;
     background-color:#14747d; 
     padding-bottom: 10px;
+    margin-bottom: 3%;
+    margin-top: 3%;
     
 }
 
@@ -139,11 +141,13 @@ a:hover {
 }
 
 li {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     background-color:#14747d; 
     float: left;
     padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .galleryitem {
@@ -202,11 +206,11 @@ ul {
   margin-left: auto;
   margin-right: auto;
   bottom: 0;
-  width: 100%;
+/*  width: 100%;*/
   width: 50%;
   text-align: center;
   font-family: 'Amatic SC', cursive;
-  font-size: 2.25em; /*36px*/
+  font-size: 5.25em; 
   color: #fff;
   font-weight: bold;
   padding: 0;
@@ -340,15 +344,15 @@ margin-bottom: 5px;
 }
 
 .emailtext {
- width: 160px;
+ width: 276px;
  height: 50px;
  display: inline-block;
  text-align: center;
  font-family: 'Amatic SC', cursive;
- font-size: 40px;
+ font-size: 74px;
  color: #fff;
  font-weight: bold;
- line-height: 35px;
+ line-height: 75px;
 }
 
 .backbutton {
