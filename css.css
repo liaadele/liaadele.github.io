@@ -609,3 +609,17 @@ margin-bottom: 5px;
 .gallerylink img {
   margin-top: 15%;
 }
+
+.caption {
+  font-size: 14px;
+  font-style: italic;
+  text-decoration: none;
+  width: 33%;
+  position: relative;
+  margin-left: 33%;
+  text-align: center;
+}
+
+.captionlink {
+  text-decoration: underline !important;
+}
