@@ -408,11 +408,16 @@ margin-bottom: 5px;
 */
 .lightbox:target {
   /** Show lightbox when it is target */
-  display: block;
+  display: none;
 
   /** Remove default browser outline style */
   outline: none;
 }
+
+.lightbox:target img {
+  display: none;
+}
+
 .lightbox a {
   color: #fff;
   text-decoration: none;
@@ -517,3 +522,4 @@ margin-bottom: 5px;
     /* background: #00f; */
     margin: 10px;
 }
+
